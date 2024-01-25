@@ -69,6 +69,7 @@ for the binary search, it would be the value in the middle of the list.
 - [ ] 9. The theoretical worst-case running time of linear search is $O(n)$ and binary search is $O(log_2(n))$. Do these theoretical running times match your empirical results? Why or why not?
 
 **TODO: your answer goes here**
+It almost matches the theorectical running times with some deviation. The actual cpu may be processing other processes while running each tests, which may cause fluactuation on computing power, resulting in unideal running time.
 
 - [ ] 10. Binary search assumes the input list is already sorted. Assume it takes $\Theta(n^2)$ time to sort a list of length $n$. Suppose you know ahead of time that you will search the same list $k$ times. 
   + What is worst-case complexity of searching a list of $n$ elements $k$ times using linear search? **TODO: your answer goes here**
