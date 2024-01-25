@@ -39,11 +39,13 @@ We'll compare the running times of `linear_search` and `binary_search` empirical
 
 - [ ] 4. Describe the worst case input value of `key` for `linear_search`? for `binary_search`? 
 **TODO: your answer goes here**
+
 For both, the worst case input value would be a value that is not in the list.
 
 - [ ] 5. Describe the best case input value of `key` for `linear_search`? for `binary_search`? 
 
 **TODO: your answer goes here**
+
 for the linear search, the best case input value of 'key 'would be index 0 of the list (the first object),
 for the binary search, it would be the value in the middle of the list. 
 
