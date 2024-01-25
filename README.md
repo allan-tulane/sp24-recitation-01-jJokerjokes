@@ -77,3 +77,4 @@ It almost matches the theorectical running times with some deviation. The actual
   + For binary search? **TODO: your answer goes here**
   + Θ(n^2+klogn)
   + For what values of $k$ is it more efficient to first sort and then use binary search versus just using linear search without sorting? **TODO: your answer goes here**
+  + k < (n^2)/(n-logn)
